@@ -1,0 +1,20 @@
+name: getintoit
+on:
+  workflow_dispatch:
+jobs:
+  firstjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: get the name
+        run: echo "My name is karthik"
+      - name: get the city 
+        run: echo "I am in houston"
+  secondJob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: get india name
+        run: echo "My name was lekkala"
+      - name: get indiacity
+        run: echo " I was in hyderabad"
+      
+    
